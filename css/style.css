@@ -1,0 +1,40 @@
+body{
+  font-family: monospace;
+  background-color: #f0f5f5;
+  display: flex;
+  justify-content: center;
+  color: #808080;
+}
+.icon {
+  width:70px;
+  height:70px;
+  float:right;
+}
+.container {
+  transition: 0.4s;
+  background-color: white;
+  width: 30%;
+  height: 40%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 15%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #ccc;
+  border: 1px solid  #f0f5f5;
+}
+.container:hover{
+  box-shadow: 4px 4px 10px #ccc;
+
+}
+h1 {
+  font-weight: 400;
+  position:relative;
+  bottom: 0;
+}
+#city {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+#desc {
+  text-transform: capitalize;
+}
